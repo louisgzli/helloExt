@@ -14,7 +14,7 @@ Ext.application({
             html: 'Another Panel'
         });
 
-        Ext.create('Ext.container.Viewport', {
+        Ext.create('Ext.container.Viewport', {//从Ext.create开始渲染
             items: [ childPanel1, childPanel2 ]
         });
 
